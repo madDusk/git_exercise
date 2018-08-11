@@ -1,0 +1,14 @@
+С помощью этих нехитрых команд добавил файл в репозитарий
+
+mkdir git_exercise
+cd git_exercise
+echo "# git_exercise" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/madDusk/git_exercise.git
+#репозитарий уже был создан через браузер
+#этот пример в ообщем-то оттуда  ивзят
+git push -u origin master
+
+Сейчас попытаюсь и этот файл добавить.
