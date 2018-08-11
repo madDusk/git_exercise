@@ -8,7 +8,10 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/madDusk/git_exercise.git
 #репозитарий уже был создан через браузер
-#этот пример в ообщем-то оттуда  ивзят
+#этот пример в ообщем-то оттуда  и взят
 git push -u origin master
 
 Сейчас попытаюсь и этот файл добавить.
+git add -A
+git commit -m "first commit"
+git push -u origin master
